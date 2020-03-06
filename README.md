@@ -12,4 +12,6 @@ Så har du en kopi af materialerne.
 
 Mit repository udvikler sig hen over semesteret, afhængigt af klassens behov for informationer om udvikling af hjemmesider.
 
+Og flexbox er da ...
+
 / Per
