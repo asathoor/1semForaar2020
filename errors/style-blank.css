@@ -1,0 +1,104 @@
+/* css Zen Garden blank style v1.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Nothing Equals Nothing' by Per Thykjaer Jensen */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the html as well. */
+
+/* Basic styles */
+html { 
+	
+	}
+body { 
+	
+	}
+p { 
+	
+	}
+h3 { 
+	
+	}
+a:link { 
+	
+	}
+a:visited { 
+	
+	}
+a:hover, a:focus, a:active { 
+	
+	}
+abbr {
+	
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+}
+	
+
+.intro { 
+
+}
+
+header h1 { 
+	}
+header h2 { 
+	}
+header {
+}
+
+.summary {
+	}
+.summary p {
+	}
+
+.preamble {
+	}
+.supporting {	
+	}
+
+footer { 
+
+	}
+footer a:link, footer a:visited { 
+
+	}
+
+.sidebar {
+
+}
+.sidebar .wrapper { 
+
+}
+.sidebar h3.select { 
+	}
+.sidebar h3.archives { 
+	}
+.sidebar h3.resources { 
+	}
+
+
+.sidebar ul {
+	}
+.sidebar li {
+	}
+.sidebar li a:link {
+	}
+.sidebar li a:visited {
+
+	}
+
+
+.extra1 {
+	}
+
+/* RESPONSIVE STYLES */
+
+/* mobile */
+
+/* tablet */
+
+/* screen */
+
+/* print */
