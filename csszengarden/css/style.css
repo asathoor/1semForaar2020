@@ -1,0 +1,243 @@
+/* css Zen Garden blank style v1.00 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Nothing Equals Nothing' by Per Thykjaer Jensen */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the html as well. */
+
+/* reset styles */
+@import url("meyer.css");
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Fredoka+One&family=Hind+Vadodara:wght@300;400;500;600&family=Trade+Winds&display=swap');
+
+/**
+----> Google Fonts Usage:
+font-family: 'Trade Winds', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Hind Vadodara', sans-serif;
+**/
+
+/* Browser Tile Variables */
+:root {
+	/* colors */
+	--bl: #000;
+	--wh: #fff;
+	--color-a: #a36cb2;
+	--color-b: #b2a36c;
+	--color-c: lime;
+	
+	/* fonts */
+	--text-font: 'Hind Vadodara', sans-serif; 
+	--header-font: 'Trade Winds', cursive;
+	--logo-font: 'Fredoka One', cursive;
+	
+	/* whitespace */
+	--margins: 1.5rem;
+}
+
+/* Basic styles */
+html { 
+		
+	}
+body {
+	font-family: var(--text-font);
+	font-size: 20px;
+	color: var(--wh);
+	background-color: var(--bl);
+	}
+p { 
+	max-width: 35rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: var(--margins);
+	padding-bottom: var(--margins);
+	}
+
+p:first-child::before {
+ content: '★ '; /* utf8 black star */
+	color: var(--wh);
+	font-size: xx-large;
+}
+
+p::before {
+	content: '☥ '; /* ankh */
+	color: red;
+	font-size: xx-large;
+}
+
+
+h3 { 
+	font-family: var(--header-font);
+	text-align: center;
+	color: var(--color-a);
+	font-size: xx-large;
+	}
+
+abbr {
+	font-weight: bold;
+}
+
+.select {
+	padding-top: var(--margins);
+}
+
+a:link { 
+	font-size: 110%;
+	color: var(--color-c);	
+	text-decoration: none;
+	}
+
+a:visited { 
+	
+	}
+
+a:hover, a:focus, a:active { 
+	
+	}
+
+abbr {
+	color: var(--color-b);
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+}
+	
+.intro { 
+}
+
+header {
+	/*
+	background-image:url('../images/new-year-2020_1200x674.JPG');
+    background-repeat:no-repeat;
+	height: 33vh;
+	*/
+	background-color: var(--color-a);
+	padding-bottom: var(--margins);
+	padding-bottom: var(--margins);
+	display: flex;
+	flex-direction: column;
+}
+
+header abbr {
+	color: var(--color-c);
+}
+
+header h1 {
+	position: relative;
+	font-family: var(--logo-font);
+	text-align: center;
+	font-size: 75px;
+	color: var(--wh);
+	padding-top: 2rem;
+	}
+
+header h1::before {
+	content: ' 禪 '; /* utf8: dhyana, meditation */
+	color: var(--wh);
+	font-size: 75px;
+}
+
+header h2 {
+	position: relative;
+	font-family: var(--header-font);
+	text-align: center;
+	font-size: 200%;
+	color: var(--color-c);
+	}
+header {
+	
+}
+
+.summary {
+	display: flex;
+	font-size: x-large;
+	padding-bottom: var(--margins);
+	}
+.summary p {
+	padding: var(--margins);
+	}
+
+.preamble {
+}
+
+.supporting {	
+	}
+
+footer {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--color-a);
+	height: 135px;
+	}
+
+footer a:link, footer a:visited { 
+	color: var(--wh);
+	font-size: larger;
+	font-weight: bold;
+	margin-left: var(--margins);
+	margin-right: var(--margins);
+	}
+
+nav[role=navigation]{
+	text-align: center;
+}
+
+.design-name a {
+	font-size: xx-large;
+}
+
+.zen-resources {
+	text-align: center;
+}
+
+.archives {
+	
+}
+
+.archives h3 {
+	padding-top: var(--margins);
+}
+
+.css-resources a, .zen-submit a, .viewall a {
+	color: var(--color-c);
+}
+
+.sidebar {
+
+}
+.sidebar .wrapper { 
+
+}
+.sidebar h3.select { 
+	}
+.sidebar h3.archives { 
+	}
+.sidebar h3.resources { 
+	}
+
+.sidebar ul {
+	}
+.sidebar li {
+	}
+.sidebar li a:link {
+	}
+.sidebar li a:visited {
+	}
+.extra1 {
+	}
+
+/* RESPONSIVE STYLES */
+
+/* mobile */
+
+/* tablet */
+
+/* screen */
+
+/* print */
