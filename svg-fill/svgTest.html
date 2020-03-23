@@ -13,27 +13,29 @@
 	<style>
 		/* google fonts */
 		@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
-		
+
 		body {
 			font-family: 'Trade Winds', cursive;
-			
+
 			background: rgb(2, 0, 36);
 			background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 			background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 			background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
 		}
-		
-		h1, p {
+
+		h1,
+		p {
 			color: #fff;
 		}
-		
+
 		.symbol {
 			font-size: 3em;
 			color: orangered;
 		}
-		
-		abbr, .source {
+
+		abbr,
+		.source {
 			color: orangered;
 		}
 
@@ -45,7 +47,7 @@
 
 		.feature text {
 			font-size: 10vh;
-			stroke: yellow ;
+			stroke: yellow;
 			stroke-width: .5mm;
 			fill: transparent;
 			paint-order: stroke;
@@ -57,7 +59,7 @@
 			animation-duration: 2s;
 			animation-fill-mode: forwards;
 		}
-	
+
 		@keyframes fillMeIn {
 			from {
 				fill: transparent;
@@ -66,21 +68,24 @@
 			to {
 				fill: lime;
 			}
+
 	</style>
 
 </head>
 
 <body>
 	<h1><span class="symbol">狗</span> SVG Hover Fill</h1>
-		
-	<!-- text as svg graphic -->
-	<svg class="feature">
-		<text x='0' y='25%'>The more I see of mankind</text>
-		<text x='0' y='55%'>the more I love my dog</text>
-	</svg>
-	
+
+	<a href="#">
+		<!-- text as svg graphic -->
+		<svg class="feature">
+			<text x='5%' y='25%'>The more I see of mankind</text>
+			<text x='7%' y='55%'>the more I love my dog</text>
+		</svg>
+	</a>
+
 	<p>Based on original idea from <span class="source"> [Web Designer 292: 19]</span> <br>
-	Improved with <abbr title="Cascading Style Sheets">CSS3</abbr> animation, petj 20200306</p>
+		Improved with <abbr title="Cascading Style Sheets">CSS3</abbr> animation, petj 20200306</p>
 	<p>Quote: Der Alte Fritz</p>
 </body>
 
